@@ -1,0 +1,38 @@
+nohup: ignoring input
+创建服务器成功 监听端口号:9999
+12:43:16('223.104.170.255', 43493)连接至服务器
+process id = 1 start
+$1,超神机械师#
+keyword:超神机械师
+百度 requests 用时:206
+八一中文网 requests 用时:794
+飘天文学网 requests 用时:1166
+$1,宇宙级大反派#
+keyword:宇宙级大反派
+百度 requests 用时:226
+八一中文网 requests 用时:731
+飘天文学网 requests 用时:1020
+$2,https://www.zwdu.com/book/33135/,#
+url:https://www.zwdu.com/book/33135/
+--------------start crawl book--------------------
+ requests 用时:830
+八一中文网
+base_url:https://www.zwdu.com/
+小说共1230章 需请求的url数量:1230
+cpu核心数:1
+线程数:1230
+每获取一个url需要延时时间:0
+Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+爬取完成！此次爬取用时:36804ms
+文件名:宇宙级大反派
+章节数:1230
+《宇宙级大反派》写入完成用时:167ms
+《宇宙级大反派》开始发送爬取的书籍
+《宇宙级大反派》发送完成
+
+
+
+12:44:54('223.104.170.255', 43493)断开连接
+cmdType == cmdType_Exit
+process id = 1 end

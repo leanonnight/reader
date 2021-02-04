@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SearchBookActivity"
+    android:orientation="vertical">
+    <View
+        android:id="@+id/viewPwd"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_centerVertical="true"
+        android:background="#ffeeeeee" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffeeeeee">
+        <ImageButton
+            android:id="@+id/Search_BackBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:src="@mipmap/back_s32"
+            android:scaleType="center"/>
+        <EditText
+            android:id="@+id/Search_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:ems="19"
+            android:layout_gravity="center_vertical"
+            android:hint="请输入书名或作者   "
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/Search_SearchBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:src="@mipmap/search_s32"
+            android:scaleType="center"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical"
+            android:fadingEdge="vertical">
+            <LinearLayout
+                android:id="@+id/Search_LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+            </LinearLayout>
+        </ScrollView>
+
+<!--        <Lay-->
+<!--            android:id="@+id/Search_BookLV"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+        <com.example.reader.CircleProgressBar
+            android:id="@+id/Search_CircleProgressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="80dp" />
+
+        <TextView
+            android:id="@+id/Search_ShowInfoTV"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textSize="12sp"
+            android:scrollbars="vertical"
+            android:layout_gravity="bottom"
+            android:scrollbarStyle="insideOverlay"
+            android:fadeScrollbars="false"
+            android:scrollbarFadeDuration="2000"/>
+    </FrameLayout>
+
+</LinearLayout>

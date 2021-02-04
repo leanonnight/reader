@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Reader</string>
+    <string name="menu_search_title">menu_search</string>
+    <string name="menu_title">menu</string>
+</resources>
